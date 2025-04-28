@@ -6,6 +6,8 @@ BizVid is a modern and intuitive Android application designed to fuel the entrep
 
 Whether you’re an aspiring founder, a student exploring the startup ecosystem, or simply curious about the business world, BizVid serves as your go-to platform for learning, motivation, and exploration.
 
+Download the APK file and run.
+
 ---
 
 ## ✨ Features
@@ -13,9 +15,9 @@ Whether you’re an aspiring founder, a student exploring the startup ecosystem,
 - **Splash Screen**: Engaging welcome screen with smooth transition to login.
 - **User Authentication**:
   - **Sign Up**: New users can easily create an account.
-  - **Log In**: Secure login with saved credentials using SharedPreferences.
+  - **Log In**: Secure login with saved credentials using Firebase.
 - **Home Screen**:
-  - **Video Directory**: Curated entrepreneurial videos via YouTube API.
+  - **Video Directory**: Curated entrepreneurial videos via YouTube.
   - **Locate Startups**: Discover startups based on location, both locally and globally.
   - **Roadmap Generator**: AI-powered guide to manage startup investments (powered by Gemini API).
   - **ChatBox (Chatbot)**: Smart virtual assistant for business-related queries (powered by Gemini API).
@@ -53,14 +55,11 @@ Whether you’re an aspiring founder, a student exploring the startup ecosystem,
 3. In your project's `local.properties` file, add your Gemini API key:
    ```bash
    GEMINI_API_KEY=YOUR_API_KEY
-
-
-- Build and run the project on an emulator or real Android device.
+4. Build and run the project on an emulator or real Android device.
 
 ## Important:
 
 - Without setting your Gemini API key, the ChatBot and Roadmap Generator features will not function.
-- Without setting your YouTube API key, the Video Directory will not load videos.
 
 ## 📜 License
 - This project is for educational purposes.
